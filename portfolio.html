@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link id="style1" rel="stylesheet" href="styles.css">
+  <link id="style2" rel="stylesheet" href="styles2.css" disabled>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Technical Portfolio</h1>
+  </header>
+
+  <button onclick="toggleStyle()">Switch Theme</button>
+
+  <script src="toggle.js"></script>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="qualifications.html">Qualifications</a>
+    <a href="service.html">Service</a>
+    <a href="genai.html">Gen-AI</a>
+  </nav>
+
+  <main>
+  <!-- Projects Section -->
+  <div class = "sections-container">
+  <h2 class="page-heading">Projects</h2>
+
+    <div class="flex-section">
+      <div class="text-box">
+        <h3>3D Tic-Tac-Toe with AI</h3>
+        <p>Built a 4x4x4 tic-tac-toe game with multiple AI opponents, 
+           including Monte Carlo Tree Search for efficient decision making.</p>
+        <p><a href="https://github.com/vjm295/3D_TTT_AI.git" target="_blank">GitHub Link</a></p>
+      </div>
+      <div class="image-box">
+        <img src="https://plus.unsplash.com/premium_photo-1673735396428-d51dc2a7a62d?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="3D Tic-Tac-Toe Screenshot">
+      </div>
+    </div>
+
+    <div class="flex-section reverse">
+      <div class="text-box">
+        <h3>Pokerbot</h3>
+        <p>Designed a poker bot using Counterfactual Regret Minimization 
+           to dynamically adapt strategies based on probability and statistics.</p>
+        <p><a href="https://github.com/vrnayak20/Pokerbot.git" target="_blank">GitHub Link</a></p>
+      </div>
+      <div class="image-box">
+        <img src="https://plus.unsplash.com/premium_photo-1698691709009-b99622100452?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pokerbot Screenshot">
+      </div>
+    </div>
+
+     <div class="flex-section">
+      <div class="text-box">
+        <h3>Schedule Builder</h3>
+        <p>Used Selenium to webscrape high school course catalog and create 
+          a database for existing courses. Then generated suggested schedules
+          based on student interests and preferences.</p>
+        <p><a href="https://github.com/vrnayak20/ScheduleCreator" target="_blank">GitHub Link</a></p>
+      </div>
+      <div class="image-box">
+        <img src="images/schedule.png" alt="Pokerbot Screenshot">
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Research Section -->
+  <div class = "sections-container">
+  <h2 class="page-heading">Experience</h2>
+
+    <div class="flex-section">
+      <div class="text-box">
+        <h3>Computer Vision for Animal Disease Detection Research</h3>
+        <p>Developed and trained machine learning models to identify and 
+           predict animal diseases, applying statistical analysis and 
+           feature engineering to refine datasets.</p>
+        <p><a href="https://aggieresearch.tamu.edu/summer-2025-developing-a-decision-modeling-system-for-management-of-bovine-respiratory-disease/" target="_blank">Research Description</a></p>
+      
+      </div>
+      <div class="image-box">
+        <img src="https://plus.unsplash.com/premium_photo-1663013056231-80ae82663a52?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Computer Vision Research">
+      </div>
+    </div>
+
+    <div class="flex-section reverse">
+      <div class="text-box">
+        <h3>InventXYZ Mentor</h3>
+        <p>Created and delivered Python, Tableau, and Unreal Engine lesson 
+          plans to high school students, enhancing data visualization literacy</p>
+        <p><a href="https://inventxyz.com/" target="_blank">Website</a></p>
+      </div>
+      <div class="image-box">
+        <img src="https://www.kcstem.org/wp-content/uploads/2023/06/inventXYZ-wordmark-with-padding-300x114.png" alt="Computer Vision Research">
+      </div>
+    </div>
+
+  </main>
+  </div>
+
+</body>
+</html>
